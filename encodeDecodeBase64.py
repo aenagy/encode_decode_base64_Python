@@ -54,15 +54,15 @@ if inputFile is None:
     # https://stackoverflow.com/questions/19747371/python-exit-commands-why-so-many-and-when-should-each-be-used
     raise SystemExit
 
-print( "" )
-print( f"inputFile          = {inputFile},         type = {type(inputFile)}" )
-print( f"inputFile[0]       = {inputFile[0]},      type = {type(inputFile[0])}" )
-print( f"inputFile[0].name  = {inputFile[0].name}, type = {type(inputFile[0].name)}" )
+#print( "" )
+#print( f"inputFile          = {inputFile},         type = {type(inputFile)}" )
+#print( f"inputFile[0]       = {inputFile[0]},      type = {type(inputFile[0])}" )
+#print( f"inputFile[0].name  = {inputFile[0].name}, type = {type(inputFile[0].name)}" )
 
 # https://stackoverflow.com/questions/82831/how-do-i-check-whether-a-file-exists-without-exceptions
 inputFileOsPath = Path( inputFile[0].name )
 
-print( f"inputFileOsPath    = {inputFileOsPath},         type = {type(inputFileOsPath)}" )
+#print( f"inputFileOsPath    = {inputFileOsPath},         type = {type(inputFileOsPath)}" )
 
 if inputFileOsPath.is_file():
     # file exists
@@ -77,13 +77,13 @@ if outputFile is None:
     # https://stackoverflow.com/questions/19747371/python-exit-commands-why-so-many-and-when-should-each-be-used
     raise SystemExit
 
-print( "" )
-print( f"outputFile          = {outputFile}" )
-print( f"outputFile          = {outputFile},         type = {type(outputFile)}" )
-print( f"outputFile.name     = {outputFile.name},    type = {type(outputFile.name)}" )
+#print( "" )
+#print( f"outputFile          = {outputFile}" )
+#print( f"outputFile          = {outputFile},         type = {type(outputFile)}" )
+#print( f"outputFile.name     = {outputFile.name},    type = {type(outputFile.name)}" )
 
 outputFileOsPath = Path( outputFile.name )
-print( f"outputFileOsPath    = {outputFileOsPath}" )
+#print( f"outputFileOsPath    = {outputFileOsPath}" )
 
 if outputFileOsPath.is_file():
     # file exists
@@ -91,7 +91,6 @@ if outputFileOsPath.is_file():
 else:
     print( f"ERROR: Not found input file {outputFileOsPath}. Exiting script '" + os.path.basename(__file__) + "'."  )
     raise SystemExit
-
 
 
 if actionEncode and not actionDecode:
@@ -103,12 +102,12 @@ else:
     # https://stackoverflow.com/questions/19747371/python-exit-commands-why-so-many-and-when-should-each-be-used
     raise SystemExit
 
-print( "" )
-print( f"inputFileOsPath     = {inputFileOsPath}" )
-print( f"outputFileOsPath    = {outputFileOsPath}" )
-print( f"actionEncode        = {actionEncode}" )
-print( f"actionDecode        = {actionDecode}" )
-print( f"doEncode            = {doEncode}" )
+#print( "" )
+#print( f"inputFileOsPath     = {inputFileOsPath}" )
+#print( f"outputFileOsPath    = {outputFileOsPath}" )
+#print( f"actionEncode        = {actionEncode}" )
+#print( f"actionDecode        = {actionDecode}" )
+#print( f"doEncode            = {doEncode}" )
 
 if doEncode:
     Python3Encode( inputFileOsPath , outputFileOsPath )
