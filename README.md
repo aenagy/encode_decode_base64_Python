@@ -10,7 +10,6 @@ Based on responses from Jon Clements (https://stackoverflow.com/users/1252759/jo
 * Splitting large text file into smaller text files by line numbers using Python
   `https://stackoverflow.com/questions/16289859/splitting-large-text-file-into-smaller-text-files-by-line-numbers-using-python`
 
-
 ## Usage
 
 This Python script was created and tested with version 3.11 on Windows 10 using PowerShell 7 for the command-line.
