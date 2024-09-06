@@ -17,7 +17,8 @@ If/when/maybe I have time I will test on other platforms such as Ubuntu.
 
 ## Execution
 
-These examples asume the above PowerShell session. Python must obviously be added to the `$env:PATH` variable.
+These examples asume the above PowerShell session. Python must obviously be added to the `$env:PATH` variable. There isn't any limitation imposed on this script that would prevent execution in another environment such as Windows Command Prompt (CMD.EXE), Git Bash for Windows or Bash. Note that this script has not been tested on Unix/Linix/POSIX.
+
 
 ### Encode from original to base64
 
