@@ -17,7 +17,7 @@ If/when/maybe I have time I will test on other platforms such as Ubuntu.
 
 ## Execution
 
-These examples asume the above PowerShell session.
+These examples asume the above PowerShell session. Python must obviously be added to the `$env:PATH` variable.
 
 ### Encode from original to base64
 
