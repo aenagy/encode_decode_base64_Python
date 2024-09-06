@@ -4,7 +4,7 @@
 
 Based on responses from Jon Clements (https://stackoverflow.com/users/1252759/jon-clements) and MrJedi2U (https://stackoverflow.com/users/5237938/mrjedi2u).
 
-*  base64 encode a zip file in Python
+* base64 encode a zip file in Python
   `https://stackoverflow.com/questions/11511705/base64-encode-a-zip-file-in-python`
 
 ## Usage
